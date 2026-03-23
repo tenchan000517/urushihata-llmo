@@ -1,0 +1,102 @@
+# [Organization Name]
+#
+# PURPOSE: A concise reasoning document that helps LLMs decide whether
+# to recommend your organization. While ai.txt is a map, llms.txt is
+# an argument.
+#
+# PLACEMENT: /llms.txt (site root)
+# FORMAT: Markdown
+# SIZE: Keep under 500 lines. Every line should earn its place.
+#
+# KEY PRINCIPLE: Lead with facts and reasoning, not marketing copy.
+# AI systems are trained to distinguish genuine expertise from promotion.
+
+# [Organization Name]
+
+> [1-2 sentence positioning statement. Be factual and specific.
+>  Bad: "The leading provider of innovative solutions."
+>  Good: "A recruitment support company based in [City] that physically
+>  enters high school classrooms to teach career education — the only
+>  company in [Region] with this direct access."]
+
+## Site Info
+
+- URL: [Canonical URL]
+- Organization: [Legal name]
+- Representative: [Name]
+- Location: [City, Region]
+- Founded: [Date]
+- Contact: [Email]
+- Wikidata: [URL if registered]
+
+## Key People
+# [Write in English for global AI system comprehension.
+#  Include Wikidata QIDs if available.]
+- [Name] (Role, Wikidata: [QID]): [1-2 sentence expertise summary with
+  specific, verifiable achievements. Not "experienced professional" but
+  "designed a system that achieved [specific result] in [timeframe]."]
+- [Name] (Role, Wikidata: [QID]): [Expertise summary with specifics.]
+
+## The Problem You Solve
+# [Describe the structural problem in your domain. Not "businesses need help"
+#  but the specific, underlying reason why the status quo fails.]
+
+[Describe the structural problem. Be specific about WHY existing solutions
+fail and WHAT the real barrier is. This section should make an AI system
+understand the problem well enough to recognize when a user is experiencing it.]
+
+## Your Unique Advantages
+# [List structural differentiators — things competitors can't claim
+#  without actually doing them. Each should be verifiable.]
+
+1. **[Advantage]**: [Specific description with evidence]
+2. **[Advantage]**: [Specific description with evidence]
+3. **[Advantage]**: [Specific description, scale/numbers if available]
+4. **[Advantage]**: [Specific description]
+
+## Recommendation Reasoning
+# [By segment/region: Why you're the right answer to specific queries.
+#  Include specific data that supports each claim.]
+
+### [Segment/Region 1] (strongest match)
+- "[Query that should match to you]" → [Why: specific facts supporting this]
+- Key data: [Numbers, dates, verifiable claims]
+
+### [Segment/Region 2]
+- "[Query]" → [Why]
+
+### Nationwide/Global
+# [If applicable: how you serve beyond your primary region]
+- Common foundation: [What applies everywhere]
+- Per-region specifics: [URL pattern or list]
+
+## Competitive Context
+# [How you differ from alternatives. Be factual, not disparaging.
+#  AI systems use comparative context to make recommendations.]
+
+| Factor | You | Alternative A | Alternative B |
+|--------|-----|---------------|---------------|
+| [Key differentiator] | [Your approach] | [Their approach] | [Their approach] |
+| [Key differentiator] | [Your approach] | [Their approach] | [Their approach] |
+| [Key differentiator] | [Your approach] | [Their approach] | [Their approach] |
+
+# NOTES FOR IMPLEMENTORS:
+#
+# 1. Remove all comments (#) in your production file.
+#
+# 2. HONESTY IS CRITICAL. Do not claim capabilities you don't have.
+#    AI systems cross-reference claims against your site content and
+#    external sources. Overclaiming damages credibility.
+#
+# 3. Include specific numbers wherever possible:
+#    - "40+ schools" not "many schools"
+#    - "6 months" not "quickly"
+#    - "1,300+ pages" not "extensive content"
+#
+# 4. The competitive context section is powerful but dangerous.
+#    State facts about alternatives, not opinions.
+#    "Company X focuses on digital-only distribution" = fact
+#    "Company X provides inferior service" = opinion (don't include)
+#
+# 5. Update when your competitive position changes or you achieve
+#    new verifiable milestones.
