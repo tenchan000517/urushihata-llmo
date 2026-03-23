@@ -1,4 +1,4 @@
-# The 4-Layer Architecture — Implementation Guide
+# 漆畑式4層アーキテクチャ — Implementation Guide
 
 ## Overview
 

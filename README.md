@@ -1,8 +1,10 @@
-# LLMO Blueprint
+# 漆畑式LLMO — Urushihata LLMO Method
+
+**AIに「理解させ、推薦させる」ための4層設計。**
 
 **A 4-layer architecture for making AI understand — and recommend — your business.**
 
-This is not a template collection. It is a design philosophy, proven in production, for transmitting your organization's identity to large language models.
+これはテンプレート集ではない。プロダクションで実証済みの、組織のアイデンティティをLLMに伝達するための**設計思想**である。
 
 ---
 
@@ -16,13 +18,15 @@ Most businesses are invisible to AI — not because they lack content, but becau
 
 ## The Philosophy
 
+> コードはチャネルにすぎない。そこを流れるのは哲学だ。
+>
 > Code is a channel. What travels through it is philosophy.
 
 The technical layers in this repository — `ai.txt`, `llms.txt`, structured data, entity design — are **means**, not ends. They are transmission channels for something deeper: a coherent philosophy about who your organization is and why it matters.
 
 This is why copying the code doesn't reproduce the results. The architecture transmits **whatever you put into it**. If you put in generic marketing copy, AI will understand you as generic. If you put in a genuine, specific worldview — AI will understand and recommend you for exactly that.
 
-**Quality at scale, not scale alone.** 1,300+ pages where every single one reflects the same underlying philosophy. That's what makes the architecture work.
+**量より質のコンテンツが、量ある。** 1,300+ pages where every single one reflects the same underlying philosophy. That's what makes the architecture work.
 
 ### Why This Can't Be Replicated by Code Alone
 
@@ -34,7 +38,7 @@ You can use this architecture. But the results depend entirely on the depth of t
 
 ---
 
-## The 4-Layer Architecture
+## 漆畑式4層アーキテクチャ — The 4-Layer Architecture
 
 ```
 Layer 4: Entity SEO          ← WHO you are (Wikidata, Knowledge Graph, @id chains)
@@ -119,7 +123,7 @@ This is the highest-leverage layer. When ChatGPT, Perplexity, or Google's Knowle
 
 ## Results
 
-These results come from a production deployment of this architecture on a new domain:
+These results come from a production deployment of 漆畑式LLMO on a new domain:
 
 | Metric | Result | Timeline |
 |--------|--------|----------|
@@ -138,12 +142,12 @@ These results come from a production deployment of this architecture on a new do
 ## Repository Structure
 
 ```
-llmo-blueprint/
+urushihata-llmo/
 ├── README.md                           ← You are here
 ├── docs/
-│   ├── philosophy.md                   ← Design philosophy deep dive
-│   ├── four-layers.md                  ← Layer-by-layer implementation guide
-│   └── case-study.md                   ← Production results and methodology
+│   ├── philosophy.md                   ← 設計思想 — Design philosophy deep dive
+│   ├── four-layers.md                  ← 4層実装ガイド — Layer-by-layer implementation guide
+│   └── case-study.md                   ← 実証結果 — Production results and methodology
 ├── templates/
 │   ├── ai.txt.template                 ← ai.txt structure with annotations
 │   ├── llms.txt.template               ← llms.txt structure with annotations
@@ -167,8 +171,8 @@ llmo-blueprint/
 ## Who This Is For
 
 - **Engineers** building websites for businesses that want AI visibility
-- **Technical founders** who want to understand LLMO architecture
 - **SEO professionals** transitioning to AI-age optimization
+- **Technical founders** who want to understand LLMO architecture
 - **Anyone** who believes that making AI understand your business starts with having something genuine to say
 
 ## Who This Is Not For
@@ -184,7 +188,7 @@ llmo-blueprint/
 
 SEO/LLMO Architect & Full-stack Creator
 
-Designed and built the 4-layer LLMO architecture powering [yumesuta.com](https://yumesuta.com) — a 1,300+ page platform for high school recruitment in Japan. Every page reflects a consistent philosophy about connecting young people with their future careers.
+Designed and built the 漆畑式LLMO architecture powering [yumesuta.com](https://yumesuta.com) — a 1,300+ page platform for high school recruitment in Japan. Every page reflects a consistent philosophy about connecting young people with their future careers.
 
 Also a Web3 engineer: developed Japan's first DN404 project ($VLN / MUTANT ALIENS VILLAIN), NinjaDAO's official NFT contracts (Musubi Collection), and ~100 NFT smart contracts. In both domains, the work goes beyond code — designing ecosystems, tokenomics, and community structures where technology serves a larger purpose.
 

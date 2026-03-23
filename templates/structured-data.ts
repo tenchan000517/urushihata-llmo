@@ -1,5 +1,5 @@
 /**
- * LLMO Blueprint — Structured Data Generator
+ * 漆畑式LLMO — Structured Data Generator
  *
  * 18 Schema.org types, all connected through @id references
  * to create a coherent entity graph that AI systems can reason about.

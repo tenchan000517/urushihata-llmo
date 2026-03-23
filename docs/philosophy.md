@@ -1,10 +1,10 @@
-# Design Philosophy
+# 漆畑式LLMO — Design Philosophy
 
-## "The Craft Beyond the Code"
+## 「技術の外側の作り込み」 — The Craft Beyond the Code
 
 Every engineer can write a `<script type="application/ld+json">` tag. Every marketer can write a company description. The question is: **what goes inside?**
 
-The LLMO Blueprint is built on one conviction: **the technical layers are transmission channels, not the message itself.** What you transmit determines what AI understands. And what AI understands determines whether it recommends you.
+漆畑式LLMO is built on one conviction: **the technical layers are transmission channels, not the message itself.** What you transmit determines what AI understands. And what AI understands determines whether it recommends you.
 
 ---
 

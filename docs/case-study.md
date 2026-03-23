@@ -1,10 +1,10 @@
-# Case Study: New Domain to #1 in 6 Months
+# 漆畑式LLMO Case Study: New Domain to #1 in 6 Months
 
 ## Context
 
 A new domain (`yumesuta.com`) was registered in late 2025 for a high school recruitment support company in Aichi, Japan. The site needed to achieve search visibility in a competitive niche dominated by established players with years of domain authority.
 
-The 4-layer LLMO architecture was implemented from day one, not retrofitted.
+漆畑式LLMO (the 4-layer architecture) was implemented from day one, not retrofitted.
 
 ---
 
