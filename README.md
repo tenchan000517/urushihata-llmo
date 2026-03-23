@@ -172,8 +172,15 @@ urushihata-llmo/
 │       └── agents/
 ├── tools/                              ← 運用ツール
 │   ├── README.md
+│   ├── nanobanana/                     ← AI画像自動生成（アンカー方式）
 │   ├── indexing/                       ← インデックス登録自動化
 │   └── analytics/                      ← GA4/SC分析フレームワーク
+├── commands/                           ← Claude Code コマンドテンプレート
+│   ├── README.md                       ← セットアップガイド
+│   ├── content.md                      ← /content — コンテンツ制作パイプライン
+│   ├── seo-audit.md                    ← /seo-audit — 技術SEO/LLMO監査
+│   ├── strategy.md                     ← /strategy — コンテンツ戦略監査
+│   └── report.md                       ← /report — 活動報告作成
 ├── examples/                           ← 実装例
 │   ├── og-image/                       ← 動的OG画像生成
 │   └── sitemap/                        ← 大規模サイトマップ管理
