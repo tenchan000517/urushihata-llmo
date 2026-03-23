@@ -145,9 +145,12 @@ These results come from a production deployment of 漆畑式LLMO on a new domain
 urushihata-llmo/
 ├── README.md                           ← You are here
 ├── docs/
-│   ├── philosophy.md                   ← 設計思想 — Design philosophy deep dive
-│   ├── four-layers.md                  ← 4層実装ガイド — Layer-by-layer implementation guide
-│   └── case-study.md                   ← 実証結果 — Production results and methodology
+│   ├── philosophy.md                   ← Design philosophy (English)
+│   ├── philosophy.ja.md                ← 設計思想（日本語）
+│   ├── four-layers.md                  ← Implementation guide (English)
+│   ├── four-layers.ja.md               ← 4層実装ガイド（日本語）
+│   ├── case-study.md                   ← Production results (English)
+│   └── case-study.ja.md                ← 実証事例（日本語）
 ├── templates/
 │   ├── ai.txt.template                 ← ai.txt structure with annotations
 │   ├── llms.txt.template               ← llms.txt structure with annotations
@@ -159,6 +162,12 @@ urushihata-llmo/
 │       └── sitemap.ts                  ← Large-scale sitemap management
 └── LICENSE
 ```
+
+### 日本語ドキュメント
+
+- [設計思想](docs/philosophy.ja.md) — 「技術の外側の作り込み」とは何か
+- [4層実装ガイド](docs/four-layers.ja.md) — ai.txt / llms.txt / 構造化データ / Entity SEO の詳細
+- [実証事例](docs/case-study.ja.md) — 新規ドメイン6ヶ月で検索1位を取った方法論と結果
 
 ## Getting Started
 
