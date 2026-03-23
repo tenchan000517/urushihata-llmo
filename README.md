@@ -144,22 +144,39 @@ These results come from a production deployment of 漆畑式LLMO on a new domain
 ```
 urushihata-llmo/
 ├── README.md                           ← You are here
-├── docs/
-│   ├── philosophy.md                   ← Design philosophy (English)
-│   ├── philosophy.ja.md                ← 設計思想（日本語）
-│   ├── four-layers.md                  ← Implementation guide (English)
-│   ├── four-layers.ja.md               ← 4層実装ガイド（日本語）
-│   ├── case-study.md                   ← Production results (English)
-│   └── case-study.ja.md                ← 実証事例（日本語）
-├── templates/
-│   ├── ai.txt.template                 ← ai.txt structure with annotations
-│   ├── llms.txt.template               ← llms.txt structure with annotations
-│   └── structured-data.ts              ← 18-type Schema.org generator (TypeScript)
-├── examples/
-│   ├── og-image/
-│   │   └── route.tsx                   ← Dynamic OG image generation (Next.js Edge)
-│   └── sitemap/
-│       └── sitemap.ts                  ← Large-scale sitemap management
+├── docs/                               ← 設計思想・実証事例（日英並列）
+│   ├── philosophy.md / .ja.md
+│   ├── four-layers.md / .ja.md
+│   └── case-study.md / .ja.md
+├── templates/                          ← 4層アーキテクチャのテンプレート
+│   ├── ai.txt.template
+│   ├── llms.txt.template
+│   └── structured-data.ts
+├── pipeline/                           ← コンテンツ量産パイプライン（5工程×3トラック）
+│   ├── README.md
+│   ├── guide-1-research.md             ← リサーチ
+│   ├── guide-2-content-design.md       ← コンテンツ設計
+│   ├── guide-3-writing.md              ← ライティング
+│   ├── guide-4-implementation.md       ← 実装
+│   ├── guide-5-qa.md                   ← 品質保証
+│   └── configs/
+│       ├── seo-track.md                ← SEOキーワード強化トラック
+│       ├── llmo-track.md               ← AI引用最適化トラック
+│       └── user-track.md               ← エンドユーザー向けトラック
+├── audit/                              ← 監査フレームワーク
+│   ├── strategy/                       ← コンテンツ戦略監査（4エージェント並列）
+│   │   ├── README.md
+│   │   └── agents/
+│   └── technical/                      ← 技術SEO/LLMO監査（5エージェント並列）
+│       ├── README.md
+│       └── agents/
+├── tools/                              ← 運用ツール
+│   ├── README.md
+│   ├── indexing/                       ← インデックス登録自動化
+│   └── analytics/                      ← GA4/SC分析フレームワーク
+├── examples/                           ← 実装例
+│   ├── og-image/                       ← 動的OG画像生成
+│   └── sitemap/                        ← 大規模サイトマップ管理
 └── LICENSE
 ```
 
@@ -168,14 +185,19 @@ urushihata-llmo/
 - [設計思想](docs/philosophy.ja.md) — 「技術の外側の作り込み」とは何か
 - [4層実装ガイド](docs/four-layers.ja.md) — ai.txt / llms.txt / 構造化データ / Entity SEO の詳細
 - [実証事例](docs/case-study.ja.md) — 新規ドメイン6ヶ月で検索1位を取った方法論と結果
+- [パイプライン](pipeline/README.md) — コンテンツ量産の5段階×3トラック
+- [戦略監査](audit/strategy/README.md) — 「次に何を作るべきか」のデータ駆動型判断
+- [運用ツール](tools/README.md) — インデックス登録・アナリティクス・分析
 
 ## Getting Started
 
 1. **Read [`docs/philosophy.md`](docs/philosophy.md) first.** Understand *why* before *how*.
-2. **Audit your existing content.** What is your organization's genuine philosophy? Not marketing copy — the real thing.
-3. **Start with Layer 3 (Structured Data).** It has immediate, measurable impact on rich results.
-4. **Add Layer 1 (`ai.txt`) and Layer 2 (`llms.txt`).** These take time to be indexed but compound over time.
-5. **Build Layer 4 (Entity SEO) last.** This requires external recognition and can't be rushed.
+2. **Set up the 4-layer architecture** using [`templates/`](templates/).
+3. **Create your track CONFIGs** by copying [`pipeline/configs/`](pipeline/configs/) templates.
+4. **Produce content** following the [5-step pipeline](pipeline/README.md).
+5. **Index your pages** using [`tools/indexing/`](tools/indexing/).
+6. **Measure results** using [`tools/analytics/`](tools/analytics/).
+7. **Audit and plan next actions** using [`audit/`](audit/).
 
 ## Who This Is For
 
