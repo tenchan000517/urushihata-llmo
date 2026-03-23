@@ -1,0 +1,14 @@
+# API keys — NEVER commit
+.env
+.env.*
+
+# Generated images
+*.png
+*.jpg
+*.jpeg
+!README.md
+
+# Python
+__pycache__/
+*.pyc
+venv/
